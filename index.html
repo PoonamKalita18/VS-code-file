@@ -6,7 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello.</h1>
-    <p><b>Poonam Kalita..</b></p>
+   <h1><b><u>Switches in Javascript</u></b></h1>
+   <p id="bangtan"></p>
+   <script>
+    switch(newDate().getDay()) {
+        case 0:
+        day="Sunday";
+        break;
+         case 1:
+         day = "Monday";
+        break;
+         case 2:
+         day = "Tuesday";
+         break;
+         case 3:
+         day = "Wednesday";
+         break;
+         case 4:
+         day = "Thursday";
+         break;
+         case 5:
+         day = "Friday";
+        break;
+         case 6:
+        day = "Saturday";
+        break;
+    }
+    document.getElementById("bangtan").innerHTML=day;
+   </script>
 </body>
 </html>
